@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load the pivot table model
-with open('models\pt.pkl', 'rb') as file:
+with open('models/pt.pkl', 'rb') as file:
     pivot_table_model = pickle.load(file)
 
 # Load the precomputed cosine similarity model
