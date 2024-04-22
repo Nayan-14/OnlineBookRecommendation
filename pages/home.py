@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load the popularity model
-with open('models\popular.pkl', 'rb') as file:
+with open('models/popular.pkl', 'rb') as file:
     popularity_model = pickle.load(file)
 
 def home():
